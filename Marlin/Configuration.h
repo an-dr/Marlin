@@ -670,9 +670,9 @@
     #define DEFAULT_Kd_LIST {  78.81,  78.81 }
   #else
     // E3D Volcano
-    #define DEFAULT_Kp  16.71
-    #define DEFAULT_Ki   0.92
-    #define DEFAULT_Kd  75.87
+    #define DEFAULT_Kp  17.04
+    #define DEFAULT_Ki   0.90
+    #define DEFAULT_Kd  80.76
   #endif
 #endif
 
