@@ -670,9 +670,9 @@
     #define DEFAULT_Kd_LIST {  78.81,  78.81 }
   #else
     // Ender 3 v2
-    #define DEFAULT_Kp  28.72
-    #define DEFAULT_Ki   2.62
-    #define DEFAULT_Kd  78.81
+    #define DEFAULT_Kp  19.62
+    #define DEFAULT_Ki   1.43
+    #define DEFAULT_Kd  67.09
   #endif
 #endif
 
@@ -1170,7 +1170,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 430.85 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 446.48 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
@@ -1485,7 +1485,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -21.5, -4, -2.5 }
+#define NOZZLE_TO_PROBE_OFFSET { 36.00, -40.30, -1.46 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
